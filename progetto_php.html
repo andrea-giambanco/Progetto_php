@@ -1,0 +1,62 @@
+<html>
+
+    <head>
+        <title>Pagina di Sondaggio</title>
+        <link rel="stylesheet" href="mezzi_di_trasporto.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+
+    </head>
+    <body>
+
+
+
+        <div class="div_with_form">
+
+            <div class="container">
+                <form method="post" action="sondaggio.php">
+                    <div class="row">
+                        <div class="col">
+                            <label id="Name">Nome</label>
+                            <input type="text" id="id_Name" name="nome"required>
+
+                            <label id="Surname">Cognome</label>
+                            <input type="text" id="ID_surname" name="cognome" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            
+                        </div>
+                    </div>
+                    <select name="Provincia" id="ID_provincia">
+
+                        <option value="Udine">Udine</option>
+                        <option value="Pordenone">Pordenone</option>
+                        <option value="Gorizia">Gorizia</option>
+                        <option value="Trieste">Trieste</option>
+
+                    </select>
+
+
+                    <select name="Percorso" id="Id_percorso">
+
+                        <option value="Extraurbano">Extraurbano</option>
+                        <option value="Urbano">Urbano</option>
+
+                    </select>
+
+                    <input type="submit">
+                </form>
+            </div>
+        </div>
+
+
+    </body>
+    <footer>
+
+    </footer>
+</html>
